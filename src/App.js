@@ -1,9 +1,12 @@
 import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+import StorePicker from './Components/StorePicker'
 
 function App() {
   return (
-    <div>
-
+    <div className="App">
+        <StorePicker/>
     </div>
   );
 }
