@@ -8,7 +8,7 @@ class App extends React.Component{
     return(
       <div className = 'shopkart'>
         <div className="menu">
-          <Items/>
+          <Items tagline = "gem t1 sales"/>
            </div>
            <YourCart></YourCart>
            <Inventory/>

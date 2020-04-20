@@ -1,10 +1,12 @@
 import React from 'react';
 
-class Items extends React.Component{
-    render(){
+const Items = (props) =>{
         return(
-            <p>Header</p>        )
-    }
+            <header className="top">
+                <h1>Shop-Kart</h1>
+                <h3 className="tagline">{props.tagline}</h3>
+            </header>
+        )
 }
 
 export default Items;

@@ -33,3 +33,36 @@
     flex-shrink: 1;
     flex-basis: 50%;
    }
+
+   @font-face {
+    font-family: 'blanchcaps_inline';
+    src: url("./fonts/blanch_caps_inline-webfont.eot");
+    src: url("./fonts/blanch_caps_inline-webfont.eot?#iefix") format('embedded-opentype'), url("./fonts/blanch_caps_inline-webfont.woff") format('woff'), url("./fonts/blanch_caps_inline-webfont.ttf") format('truetype'), url("./fonts/blanch_caps_inline-webfont.svg#blanchcaps_inline") format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+  h1,h3 {
+    font-family: 'blanchcaps_inline', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+  }
+  header.top {
+    text-align: center;
+  }
+  header.top h1 {
+    font-size: 90px;
+    color: black;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+  }
+  header.top h3 {
+    font-size: 40px;
+    color: black;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+  }
