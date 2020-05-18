@@ -5,7 +5,8 @@ const Inventory = () =>{
             return(
             <div>
             <h2>Inventory</h2>
-            <AddItem></AddItem>
+            <AddItem addItem = {this.addItem}/>
+            <button onClick = {this.loadItems }>Load Items</button>
             </div>
             )
     }
