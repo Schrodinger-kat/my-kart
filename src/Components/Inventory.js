@@ -1,8 +1,13 @@
 import React from 'react';
+import AddItem from './AddItem';
 
 const Inventory = () =>{
             return(
-            <p>Inventory</p>        )
+            <div>
+            <h2>Inventory</h2>
+            <AddItem></AddItem>
+            </div>
+            )
     }
 
 export default Inventory;

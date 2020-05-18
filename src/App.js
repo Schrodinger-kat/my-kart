@@ -4,6 +4,20 @@ import Inventory from './Components/Inventory'
 import YourCart from './Components/YourCart'
 
 class App extends React.Component{
+
+  constructor() {
+    super();
+    this.state = {
+      items: {},
+      order: {}
+    };
+  }
+
+  addItem(items) {
+
+    const stuffs = {...this.state.stuffs};
+    const timestamp = Date.now(); 
+  }
   render(){
     return(
       <div className = 'shopkart'>

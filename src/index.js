@@ -8,11 +8,14 @@ import {BrowserRouter} from 'react-router-dom';
 import StorePicker from './Components/StorePicker';
 import NotFound from './Components/NotFound';
 
+//<Route path="/store/:storeId" component={App}/>
+      
 const Root = () =>{
   return(
     <BrowserRouter>
     <Switch>
-      <Route path = "/" component={StorePicker}/>
+      <Route path = "/" component={App}/>
+      
       <Route path="/store/:storeId" component={App}/>
       <Route component={NotFound}/>
     </Switch>
